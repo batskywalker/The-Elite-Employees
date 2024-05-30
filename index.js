@@ -1,3 +1,3 @@
-$(document).ready(function() {
-    $("img").height = $("img").width;
-})
+window.onload = function() {
+    
+}

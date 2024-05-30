@@ -1,11 +1,30 @@
-div {
+body {
+    margin: 0px;
+}
+
+#banner {
+    margin: 0px;
+    width: 100%;
+    aspect-ratio: 16 / 8;
+    background-image: url("images/banner.gif");
+    background-size: cover;
+    border-bottom: solid 50px #85309D;
+    border-radius: 30px;
+}
+
+.sides {
     display: flex;
     flex-direction: column;
     width: 25%;
 }
-.left {
+#left {
     float: left;
 }
-.right {
+#right {
     float: right;
+}
+
+img {
+    height: auto;
+    aspect-ratio: 1;
 }
