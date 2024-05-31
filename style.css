@@ -47,23 +47,18 @@ body {
     font-size: 200%;
     display: flex;
     flex-direction: column;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #bbdae3;
 }
 #content h1 {
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px 0;
     border: solid 2px #74D49E;
     border-radius: 20px;
-    width: 70%;
     background-color: #74D49E;
 }
 
 .profile {
     margin-bottom: 100px;
+    background-image: url("images/explosion.gif");
 }
 .name {
     width: 90%;
@@ -86,4 +81,17 @@ body {
 .name div {
     font-size: 3vw;
     width: 70%;
+}
+.description ul {
+    font-size: 1.7vw;
+    text-align: left;
+}
+.description ul li {
+    padding-left: 10%;
+}
+
+.center {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
