@@ -51,7 +51,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #bbdae3;
-    height: 500px;
 }
 #content h1 {
     margin-left: auto;
@@ -61,4 +60,30 @@ body {
     border-radius: 20px;
     width: 70%;
     background-color: #74D49E;
+}
+
+.profile {
+    margin-bottom: 100px;
+}
+.name {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.name img {
+    width: 30%;
+    height: auto;
+}
+.name h2 {
+    margin-bottom: 0;
+}
+.name h3 {
+    margin-top: 5px;
+}
+.name div {
+    font-size: 3vw;
+    width: 70%;
 }
