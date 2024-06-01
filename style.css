@@ -59,6 +59,7 @@ body {
 .profile {
     margin-bottom: 100px;
     background-image: url("images/explosion.gif");
+    padding-bottom: 400px;
 }
 .name {
     width: 90%;
@@ -95,4 +96,8 @@ body {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#moodsetter {
+    margin-bottom: 500px;
 }
